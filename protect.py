@@ -8,35 +8,33 @@ from bs4 import BeautifulSoup
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia,tempfile,glob,shutil,unicodedata,goslate
 from gtts import gTTS
 
-#tinkerbell
+
 cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
-#vidia
+
 kt = LINETCR.LINE()
 kt.login(qr=True)
 kt.loginResult()
-#rosetta
+
 ks = LINETCR.LINE()
 ks.login(qr=True)
 ks.loginResult()
-#sirvelmist
+
 ki = LINETCR.LINE()
 ki.login(qr=True)
 ki.loginResult()
-#fawn
+
 kk = LINETCR.LINE()
 kk.login(qr=True)
 kk.loginResult()
-#iridessa
+
 kc = LINETCR.LINE()
 kc.login(qr=True)
 kc.loginResult()
 
-#kicker ghost
-#kl = LINETCR.LINE()
-#kl.login(token="")
-#kl.loginResult()
+
+
 
 print "ღḯḉḯη-тєαм"
 reload(sys)
